@@ -21,7 +21,7 @@ export default function RootLayout({
         <link rel="icon" href="/logo.jpg" />
       </head>
       <body className={inter.className}>
-      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransactionOnChange>
+      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
         {children}
       </ThemeProvider>
       </body>
